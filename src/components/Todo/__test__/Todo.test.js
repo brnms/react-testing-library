@@ -51,6 +51,6 @@ describe("AddInput", () => {
     const divElement = screen.getByText(/Go Grocery Shopping/i)
     fireEvent.click(divElement);
     expect(divElement).toHaveClass("todo-item-active");
-  }); 
+  });  
 
 });
